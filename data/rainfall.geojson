@@ -1,0 +1,259 @@
+{
+ "type": "FeatureCollection",
+ "sample": true,
+ "note": "SAMPLE DATA for demonstration only. Replace this file with your real dataset; script.js auto-detects field names.",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Islamabad Weather Station",
+    "rainfall_mm": 12.5
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.09,
+     33.72
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Karachi Weather Station",
+    "rainfall_mm": 0.0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     66.99,
+     24.9
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Lahore Weather Station",
+    "rainfall_mm": 3.2
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.4,
+     31.52
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Faisalabad Weather Station",
+    "rainfall_mm": 1.8
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.08,
+     31.42
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Rawalpindi Weather Station",
+    "rainfall_mm": 10.4
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.05,
+     33.6
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Multan Weather Station",
+    "rainfall_mm": 0.6
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.47,
+     30.2
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Peshawar Weather Station",
+    "rainfall_mm": 5.1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.58,
+     34.05
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Quetta Weather Station",
+    "rainfall_mm": 0.0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.02,
+     30.22
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Sialkot Weather Station",
+    "rainfall_mm": 8.7
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.55,
+     32.53
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Gujranwala Weather Station",
+    "rainfall_mm": 4.5
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.15,
+     32.15
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Hyderabad Weather Station",
+    "rainfall_mm": 0.2
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.4,
+     25.35
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Sukkur Weather Station",
+    "rainfall_mm": 0.0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.9,
+     27.75
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Abbottabad Weather Station",
+    "rainfall_mm": 18.3
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.25,
+     34.18
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Muzaffarabad Weather Station",
+    "rainfall_mm": 22.1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.5,
+     34.4
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Gilgit Weather Station",
+    "rainfall_mm": 0.4
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.35,
+     35.95
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Murree Rain Gauge",
+    "rainfall_mm": 31.6
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.39,
+     33.907
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Swat Rain Gauge",
+    "rainfall_mm": 14.2
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.362,
+     34.775
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kalam Rain Gauge",
+    "rainfall_mm": 19.8
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.58,
+     35.49
+    ]
+   }
+  }
+ ]
+}

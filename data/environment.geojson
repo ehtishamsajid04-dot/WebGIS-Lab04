@@ -1,0 +1,216 @@
+{
+ "type": "FeatureCollection",
+ "sample": true,
+ "note": "SAMPLE DATA for demonstration only. Replace this file with your real dataset; script.js auto-detects field names.",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "station": "Islamabad Weather Station",
+    "AQI": 78,
+    "Category": "Moderate"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.09,
+     33.72
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station": "Karachi Weather Station",
+    "AQI": 96,
+    "Category": "Moderate"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     66.99,
+     24.9
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station": "Lahore Weather Station",
+    "AQI": 168,
+    "Category": "Unhealthy"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.4,
+     31.52
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station": "Faisalabad Weather Station",
+    "AQI": 152,
+    "Category": "Unhealthy"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.08,
+     31.42
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station": "Rawalpindi Weather Station",
+    "AQI": 82,
+    "Category": "Moderate"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.05,
+     33.6
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station": "Multan Weather Station",
+    "AQI": 143,
+    "Category": "Unhealthy for Sensitive Groups"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.47,
+     30.2
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station": "Peshawar Weather Station",
+    "AQI": 121,
+    "Category": "Unhealthy for Sensitive Groups"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.58,
+     34.05
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station": "Quetta Weather Station",
+    "AQI": 64,
+    "Category": "Moderate"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.02,
+     30.22
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station": "Sialkot Weather Station",
+    "AQI": 88,
+    "Category": "Moderate"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.55,
+     32.53
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station": "Gujranwala Weather Station",
+    "AQI": 137,
+    "Category": "Unhealthy for Sensitive Groups"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.15,
+     32.15
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station": "Hyderabad Weather Station",
+    "AQI": 105,
+    "Category": "Unhealthy for Sensitive Groups"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.4,
+     25.35
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station": "Sukkur Weather Station",
+    "AQI": 118
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.9,
+     27.75
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station": "Abbottabad Weather Station",
+    "AQI": 42,
+    "Category": "Good"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.25,
+     34.18
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station": "Muzaffarabad Weather Station",
+    "AQI": 35,
+    "Category": "Good"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.5,
+     34.4
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,232 @@
+{
+ "type": "FeatureCollection",
+ "sample": true,
+ "note": "SAMPLE DATA for demonstration only. Replace this file with your real dataset; script.js auto-detects field names.",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "Station Name": "Islamabad Weather Station",
+    "Temperature": 27,
+    "Humidity": 62
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.09,
+     33.72
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Station Name": "Karachi Weather Station",
+    "Temperature": 31,
+    "Humidity": 70
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     66.99,
+     24.9
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Station Name": "Lahore Weather Station",
+    "Temperature": 32,
+    "Humidity": 55
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.4,
+     31.52
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Station Name": "Faisalabad Weather Station",
+    "Temperature": 31,
+    "Humidity": 52
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.08,
+     31.42
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Station Name": "Rawalpindi Weather Station",
+    "Temperature": 27,
+    "Humidity": 64
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.05,
+     33.6
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Station Name": "Multan Weather Station",
+    "Temperature": 33,
+    "Humidity": 48
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.47,
+     30.2
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Station Name": "Peshawar Weather Station",
+    "Temperature": 29,
+    "Humidity": 58
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.58,
+     34.05
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Station Name": "Quetta Weather Station",
+    "Temperature": 20,
+    "Humidity": 38
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.02,
+     30.22
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Station Name": "Sialkot Weather Station",
+    "Temperature": 29,
+    "Humidity": 66
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.55,
+     32.53
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Station Name": "Gujranwala Weather Station",
+    "Temperature": 30,
+    "Humidity": 60
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.15,
+     32.15
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Station Name": "Hyderabad Weather Station",
+    "Temperature": 32,
+    "Humidity": 58
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.4,
+     25.35
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Station Name": "Sukkur Weather Station",
+    "Temperature": 34,
+    "Humidity": 40
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.9,
+     27.75
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Station Name": "Abbottabad Weather Station",
+    "Temperature": 22,
+    "Humidity": 72
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.25,
+     34.18
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Station Name": "Muzaffarabad Weather Station",
+    "Temperature": 23,
+    "Humidity": 75
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.5,
+     34.4
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Station Name": "Gilgit Weather Station",
+    "Temperature": 17,
+    "Humidity": 45
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.35,
+     35.95
+    ]
+   }
+  }
+ ]
+}

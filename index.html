@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pakistan Environmental Monitoring — Web GIS</title>
+<link rel="stylesheet" href="lib/leaflet/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="app-header">
+  <div>
+    <h1>Pakistan Environmental Monitoring</h1>
+    <p>Interactive Web GIS · basemaps · cities · weather stations · temperature · rainfall · humidity · AQI</p>
+  </div>
+  <span id="sampleBadge" class="sample-badge" hidden>Sample data loaded</span>
+</header>
+
+<!-- DASHBOARD (filled by script.js from the loaded GeoJSON) -->
+<section class="dashboard" id="dashboard" aria-label="Dashboard statistics">
+  <div class="card"><span class="card-label">Cities</span><span class="card-value" id="stat-cities">–</span></div>
+  <div class="card"><span class="card-label">Weather Stations</span><span class="card-value" id="stat-stations">–</span></div>
+  <div class="card"><span class="card-label">Environmental Records</span><span class="card-value" id="stat-env">–</span></div>
+  <div class="card"><span class="card-label">Rainfall Records</span><span class="card-value" id="stat-rain">–</span></div>
+  <div class="card"><span class="card-label">Avg Temperature</span><span class="card-value" id="stat-temp">–</span><span class="card-sub" id="stat-temp-sub"></span></div>
+  <div class="card"><span class="card-label">Avg Humidity</span><span class="card-value" id="stat-hum">–</span><span class="card-sub" id="stat-hum-sub"></span></div>
+  <div class="card"><span class="card-label">Avg AQI</span><span class="card-value" id="stat-aqi">–</span><span class="card-sub" id="stat-aqi-sub"></span></div>
+</section>
+
+<!-- MAP -->
+<main class="map-wrap">
+  <div id="map"></div>
+</main>
+
+<footer class="app-footer">Leaflet · OpenStreetMap / Esri World Imagery · Lab Assignment No. 1 — Interactive Web GIS of Pakistan</footer>
+
+<script src="lib/leaflet/leaflet.js"></script>
+<!-- offline fallback copy of the GeoJSON (used when fetch() is blocked, e.g. file://) -->
+<script src="data/embedded-data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

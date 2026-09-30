@@ -1,0 +1,104 @@
+/* ===== tokens ===== */
+:root{
+  --ink:#14231f;
+  --pine:#1f4b3f;
+  --pine-dark:#0d2a24;
+  --gold:#b9852f;
+  --paper:#f4f3ec;
+  --card:#ffffff;
+  --line:#d9d5c3;
+  --muted:#5b665f;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+  color:var(--ink);background:var(--paper);
+  display:flex;flex-direction:column;min-height:100vh;
+}
+
+/* ===== header ===== */
+.app-header{
+  background:linear-gradient(115deg,var(--pine-dark),var(--pine));
+  color:#f1f4ef;padding:16px 22px;border-bottom:4px solid var(--gold);
+  display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;
+}
+.app-header h1{font-size:1.4rem;letter-spacing:.2px}
+.app-header p{font-size:.82rem;opacity:.8;margin-top:3px}
+.sample-badge{
+  font-size:.72rem;padding:5px 12px;border-radius:999px;
+  background:rgba(185,133,47,.2);border:1px solid var(--gold);color:#f3d9a4;
+}
+
+/* ===== dashboard ===== */
+.dashboard{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:10px;padding:12px 16px;background:var(--paper);border-bottom:1px solid var(--line);
+}
+.card{
+  background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);
+  border-radius:6px;padding:9px 12px;display:flex;flex-direction:column;
+}
+.card-label{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.card-value{font-size:1.45rem;font-weight:700;color:var(--pine);line-height:1.25}
+.card-sub{font-size:.68rem;color:var(--muted);min-height:1em}
+
+/* ===== map ===== */
+.map-wrap{flex:1;position:relative;min-height:480px}
+#map{position:absolute;inset:0}
+
+.app-footer{font-size:.7rem;text-align:center;color:var(--muted);padding:7px;background:var(--paper)}
+
+/* ===== markers ===== */
+.pt-city{width:12px;height:12px;border-radius:50%;background:#c2812e;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.5)}
+.pt-station{width:13px;height:13px;border-radius:3px;background:#2f6fa0;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.5)}
+.pt-env{width:11px;height:11px;transform:rotate(45deg);background:#1f8a70;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.5)}
+.badge{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-width:30px;height:20px;padding:0 6px;border-radius:10px;
+  font:600 11px/1 "Segoe UI",system-ui,sans-serif;white-space:nowrap;
+  border:1.5px solid rgba(255,255,255,.95);box-shadow:0 1px 3px rgba(0,0,0,.45);
+}
+
+/* ===== popups ===== */
+.leaflet-popup-content-wrapper{padding:0;border-radius:10px;overflow:hidden}
+.leaflet-popup-content{margin:0;width:auto !important;min-width:210px}
+.env-popup{font-family:"Segoe UI",system-ui,sans-serif;font-size:13px;color:var(--ink)}
+.env-popup .ph{
+  background:var(--pine-dark);color:#f1f4ef;padding:9px 14px;
+  font-size:11px;font-weight:700;letter-spacing:.09em;
+}
+.env-popup .ps{padding:10px 14px 4px;font-weight:700;font-size:14px}
+.env-popup .row{
+  display:flex;justify-content:space-between;align-items:center;gap:14px;
+  padding:6px 14px;border-top:1px solid #eee;
+}
+.env-popup .row:first-of-type{border-top:none}
+.env-popup .k{color:var(--muted);white-space:nowrap}
+.env-popup .v{font-weight:600;text-align:right}
+.env-popup .pill{padding:2px 9px;border-radius:9px;font-weight:600;font-size:12px}
+.env-popup .pb{height:8px}
+
+/* ===== legend ===== */
+.legend{
+  background:rgba(255,255,255,.96);padding:10px 12px;border-radius:8px;
+  box-shadow:0 1px 6px rgba(0,0,0,.3);font:12px/1.4 "Segoe UI",system-ui,sans-serif;color:var(--ink);
+}
+.legend h4{font-size:12px;margin-bottom:6px}
+.legend .li{display:flex;align-items:center;gap:8px;margin:3px 0}
+.legend .sw{width:16px;height:16px;border-radius:4px;border:1px solid rgba(0,0,0,.25);flex-shrink:0}
+.legend .rng{color:var(--muted);margin-left:auto;padding-left:10px;font-size:11px}
+
+/* ===== responsive ===== */
+@media (max-width:700px){
+  .app-header h1{font-size:1.1rem}
+  .app-header p{display:none}
+  .dashboard{grid-template-columns:repeat(2,1fr);padding:10px}
+  .card{padding:6px 10px}
+  .card-value{font-size:1.1rem}
+  .card-sub{display:none}
+  .map-wrap{min-height:70vh}
+  .legend{font-size:11px;padding:8px 9px}
+  .legend .rng{display:none}
+  .leaflet-popup-content{min-width:190px}
+}

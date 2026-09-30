@@ -1,0 +1,230 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Islamabad",
+    "Province": "Islamabad Capital Territory",
+    "Type": "Capital City"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0479,
+     33.6844
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Karachi",
+    "Province": "Sindh",
+    "Type": "Metropolis"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.0011,
+     24.8607
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Lahore",
+    "Province": "Punjab",
+    "Type": "Metropolis"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.3436,
+     31.5497
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Faisalabad",
+    "Province": "Punjab",
+    "Type": "Industrial City"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.135,
+     31.4504
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Rawalpindi",
+    "Province": "Punjab",
+    "Type": "City"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0169,
+     33.5651
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Multan",
+    "Province": "Punjab",
+    "Type": "City"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.5249,
+     30.1575
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Peshawar",
+    "Province": "Khyber Pakhtunkhwa",
+    "Type": "Provincial Capital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.5249,
+     34.0151
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Quetta",
+    "Province": "Balochistan",
+    "Type": "Provincial Capital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     66.975,
+     30.1798
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Sialkot",
+    "Province": "Punjab",
+    "Type": "City"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.5229,
+     32.4945
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Gujranwala",
+    "Province": "Punjab",
+    "Type": "City"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.1945,
+     32.1877
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Hyderabad",
+    "Province": "Sindh",
+    "Type": "City"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.3578,
+     25.396
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Sukkur",
+    "Province": "Sindh",
+    "Type": "City"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.8574,
+     27.7052
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Abbottabad",
+    "Province": "Khyber Pakhtunkhwa",
+    "Type": "City"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.2117,
+     34.1463
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Muzaffarabad",
+    "Province": "Azad Jammu & Kashmir",
+    "Type": "Capital City"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.4711,
+     34.37
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Name": "Gilgit",
+    "Province": "Gilgit-Baltistan",
+    "Type": "Capital City"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.3144,
+     35.9208
+    ]
+   }
+  }
+ ]
+}
